@@ -56,5 +56,5 @@ We were able to obtain 98% of training accuracy and 92% of testing accuracy usin
 ## 4. Challenges (TO DO)
 
 * Transfer Learning: Research on how to apply existing models on custom activities.
-* Incremental learning.
+* Incremental learning: this is a kind of dynamic learning where input data is continuously used to extend the existing model's knowledge without bearing the cost of retraining the entire model from scratch.
 * On-device learning: this is a modern challenge somehow beyond our capacities. Google is doing a great job here with [TensorFlow Lite](https://www.tensorflow.org/mobile/tflite) and [TensorFlow Mobile](https://www.tensorflow.org/mobile/mobile_intro). 
