@@ -1,5 +1,6 @@
-# Deep Learning for sensor-based Human Activity Recognition : a detailed analysis of my approach to HAR, using Deep Learning.
-
+# Deep Learning for sensor-based Human Activity Recognition.
+A detailed analysis of my approach to HAR, using Deep Learning.
+#
 With the progress of Machine Intelligence in the past years, we are now able to use smart-watches, mobile applications empowered with Artificial Intelligence to predict what activity a Human being is doing based on raw accelerometer and gyroscope sensor signals. This problem is generally referred to as Sensor-based Human Activity Recognition (HAR). Its applications vary from healthcare to security (gait analysis for human identification, for instance).
 
 Unfortunately, most of the classical approaches used for HAR heavily rely on heuristic hand-crafted feature extraction methods, which dramatically hinders their generalization performance. Moreover, there rarely exists efficient end products that perform on-device real-time activity recognition with high accuracy and low resource consumption. These are the realities that caught the attention of the computer scientist that I am, who believe there is possibility for better overall performance, taking advantage of existing improvements in Deep Learning. But before describing my solution, let’s stress out the limitations of existing approaches for the HAR problem in general.
