@@ -50,3 +50,11 @@ More concretely:
 
 We see that we do not need to compute extra features for prediction. the resource consumption of our technology is therefore limited to only the collection of sensors data periodically and the prediction by feeding our model graph.
 
+## 3. Results
+We were able to obtain 98% of training accuracy and 92% of testing accuracy using a customized cross-validation technique involving leaving one user out during training and testing on him.
+
+## 4. Challenges (TO DO)
+
+* Transfer Learning: Research on how to apply existing models on custom activities.
+* Incremental learning.
+* On-device learning: this is a modern challenge somehow beyond our capacities. Google is doing a great job here with [TensorFlow Lite](https://www.tensorflow.org/mobile/tflite) and [TensorFlow Mobile](https://www.tensorflow.org/mobile/mobile_intro). 
