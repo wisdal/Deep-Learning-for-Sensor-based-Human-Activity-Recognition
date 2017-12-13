@@ -22,7 +22,7 @@ We believe we can take advantage of existing improvements in Artificial Intellig
 
 This heavily depends on our application. Generally, activities we are interested in are *Sitting, Standing, Walking, Running, Climbing Stairs Up, Climbing Starirs Down, etc.* but I have applied HAR once to predict different yoga steps (Bosch Hackathon 2017, Finalist). So, as I said before, it only depends on the application we want to apply HAR to. I have applied my approach on Classic HAR using the dataset collected by Allan et al (1,6 GB). This dataset contains readings from two sensors (accelerometer and gyroscope). Readings were recorded when users executed activities in no specific order, while carrying smartwatches and smartphones. The readings are from 9 users performing 6 activities (Sitting, Standing, Walking, Biking, ClimbStair-Up and ClimbStair-Down) using 6 types of mobile devices. 
 
-Some common issues we face when applying HAR to a custom task are the unbalance of dataset and the lack of enough training data. In the first case, I usually apply [SMOTE](https://www.jair.org/media/953/live-953-2037-jair.pdf) oversampling technique and naturally adapt it as a data augmentation solution for the second case.
+Some common issues we face when applying HAR to a custom task are the imbalance of the dataset and the lack of enough training data. In the first case, I usually apply [SMOTE](https://www.jair.org/media/953/live-953-2037-jair.pdf) oversampling technique and naturally adapt it as a data augmentation solution for the second case.
 
 **MODEL ARCHITECTURE**
 
