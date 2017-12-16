@@ -55,6 +55,6 @@ We were able to obtain 98% of training accuracy and 92% of testing accuracy usin
 
 ## 4. Challenges (TO DO)
 
-* Transfer Learning: research on how to apply existing models on custom activities without having to train from scratch.
+* Transfer Learning: research on how to apply existing models on custom activities without having to train a new model from scratch.
 * Incremental learning: this is a kind of dynamic learning where input data is continuously used to extend the existing model's knowledge without bearing the cost of retraining the entire model from scratch. It could be very helpful in HAR to be able to add, in production, training data of a new user and see it be reflected directly in the model knowledge.
 * On-device learning: this is a modern challenge somehow beyond our capacities. Google is doing a great job here with [TensorFlow Lite](https://www.tensorflow.org/mobile/tflite) and [TensorFlow Mobile](https://www.tensorflow.org/mobile/mobile_intro). 
