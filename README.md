@@ -6,4 +6,6 @@ This repository contains the source code of my solution to the HAR problem. A de
 Original Blog Post: [here](https://medium.com/@wdalmeida6/deep-learning-for-sensor-based-human-activity-recognition-970ff47c6b6b)
 
 Contact: wdalmeida6@gmail.com
+
+**UPDATE:** currently revamping my source code to adapt it to the latest TensorFlow releases; things have changed a lot since version 1.1.
 #
