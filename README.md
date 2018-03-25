@@ -7,5 +7,5 @@ Original Blog Post: [here](https://medium.com/@wdalmeida6/deep-learning-for-sens
 
 Contact: wdalmeida6@gmail.com
 
-**UPDATE:** currently revamping my source code to adapt it to the latest TensorFlow releases; things have changed a lot since version 1.1.
+**UPDATE:** currently revamping my source code to adapt it to the latest TensorFlow releases; things have changed a lot since version 1.1. I will update this repository when the new code is ready.
 #
